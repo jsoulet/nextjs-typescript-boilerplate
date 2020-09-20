@@ -10,7 +10,7 @@ This is a(nother) opinionated [Next.js](https://nextjs.org/) boilerplate
 - 🐐 Jest and React Testing Library
 - 📖 Storybook
 - 🌈 Eslint and Prettier for a consistent code base
-- 👀 Husky and lint-staged to ensure
+- 👀 Husky and lint-staged
 
 ## Upcoming
 
