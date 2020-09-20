@@ -12,12 +12,10 @@ This is a [Next.js](https://nextjs.org/) Typescript boilerplate
 
 ### Tests
 
-- React testing library ?
-- Cypress ?
-
-### Design System
-
+- Jest
+- React testing library
 - Storybook
+- Cypress ?
 
 ### Tooling
 
@@ -27,11 +25,9 @@ This is a [Next.js](https://nextjs.org/) Typescript boilerplate
 
 ## Getting Started
 
-First, run the development server:
+Run the development server:
 
 ```bash
-npm run dev
-# or
 yarn dev
 ```
 
