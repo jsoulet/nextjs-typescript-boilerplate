@@ -2,6 +2,7 @@ module.exports = {
   env: {
     browser: true,
     es2021: true,
+    jest: true,
   },
   settings: {
     react: {
@@ -33,5 +34,6 @@ module.exports = {
     'react/no-unescaped-entities': 0,
     'no-use-before-define': 0,
     '@typescript-eslint/no-use-before-define': 2,
+    'react/react-in-jsx-scope': 0,
   },
 }
