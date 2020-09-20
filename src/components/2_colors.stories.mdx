@@ -1,0 +1,45 @@
+import { Meta, Canvas } from '@storybook/addon-docs/blocks'
+import tokens from './tokens'
+import Pantone from './_utils/Pantone'
+
+<Meta title="Foundation/Colors" />
+
+<style>
+  {`
+    .color {
+      height: 100px;
+      width: 100px;
+      border-radius: 50%;
+    }
+`}
+</style>
+
+# Colors
+
+## Brand
+
+<Canvas>
+  <Pantone color={tokens.colors.primary} name={'Primary'} />
+  <Pantone color={tokens.colors.secondary} name={'Secondary'} />
+  <Pantone color={tokens.colors.tertiary} name={'Tertiary'} />
+  <Pantone color={tokens.colors.quaternary} name={'Quaternary'} />
+</Canvas>
+
+## Status
+
+<Canvas>
+  <Pantone color={tokens.colors.green} name={'Success'} />
+  <Pantone color={tokens.colors.orange} name={'Warning'} />
+  <Pantone color={tokens.colors.red} name={'Error'} />
+</Canvas>
+
+## Neutral
+
+<Canvas>
+  <Pantone color={tokens.colors.black} name={'Black'} />
+  <Pantone color={tokens.colors.gray1} name={'Gray 1'} />
+  <Pantone color={tokens.colors.gray2} name={'Gray 2'} />
+  <Pantone color={tokens.colors.gray3} name={'Gray 3'} />
+  <Pantone color={tokens.colors.gray4} name={'Gray 4'} />
+  <Pantone color={tokens.colors.white} name={'White'} />
+</Canvas>

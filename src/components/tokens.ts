@@ -8,6 +8,10 @@ const colors = {
   red: '#eb7070',
   orange: '#fec771',
   green: '#64e291',
+  primary: '#6A5ACD',
+  secondary: '#4E937A',
+  tertiary: '#E49AB0',
+  quaternary: '#F4B942',
 }
 
 const font = {
@@ -23,7 +27,20 @@ const font = {
   },
 }
 
+const baseSpacing = 4
+const spacing = {
+  0: '0',
+  1: '1px',
+  xs: `${baseSpacing * 1}px`, // 4px
+  s: `${baseSpacing * 2}px`, // 8px
+  m: `${baseSpacing * 4}px`, // 16px
+  l: `${baseSpacing * 6}px`, // 24px
+  xl: `${baseSpacing * 8}px`, // 32px
+  xxl: `${baseSpacing * 10}px`, // 40px
+}
+
 export default {
   colors,
   font,
+  spacing,
 }

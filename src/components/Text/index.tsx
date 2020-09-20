@@ -2,14 +2,12 @@
 import React from 'react'
 import { jsx } from '@emotion/core'
 import tokens from '../tokens'
-export interface HeadingProps {
+export interface TextProps {
   // eslint-disable-next-line no-undef
   as?: keyof JSX.IntrinsicElements
 }
 
-// const styles =css({ letterSpacing: '-1px' })
-
-const Heading: React.FC<HeadingProps> = ({ as: As = 'div', children, ...props }) => {
+const Heading: React.FC<TextProps> = ({ as: As = 'div', children, ...props }) => {
   return (
     <As css={{ color: tokens.colors.black }} {...props}>
       {children}

@@ -2,7 +2,7 @@ NextJS Typescript boilerplate
 
 This is a [Next.js](https://nextjs.org/) Typescript boilerplate
 
-## Libraries
+## Ingredients
 
 - React
 - NextJS

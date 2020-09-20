@@ -1,5 +1,6 @@
 import React from 'react'
+import Heading from 'src/components/Heading'
 
 export default function Home() {
-  return <div>Hello Troopers</div>
+  return <Heading>🦦 Welcome</Heading>
 }

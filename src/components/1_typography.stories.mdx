@@ -2,7 +2,21 @@ import { Meta, Canvas } from '@storybook/addon-docs/blocks'
 import Heading from './Heading'
 import Text from './Text'
 
-<Meta title="Base/Typography" />
+<style>
+  {`
+  .textWrapper {
+    margin: 0;
+    padding: 0;
+  }
+  .textWrapper li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+`}
+</style>
+
+<Meta title="Foundation/Typography" />
 
 # Typography
 
@@ -10,7 +24,7 @@ import Text from './Text'
 
 <Canvas>
   <Text>
-    <ul>
+    <ul className="textWrapper">
       <li>Imagine there's no heaven</li>
       <li>It's easy if you try</li>
       <li>No hell below us</li>
