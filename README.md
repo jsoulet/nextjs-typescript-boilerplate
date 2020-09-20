@@ -1,6 +1,6 @@
-NextJS Typescript boilerplate
+# NextJS Typescript boilerplate
 
-This is a [Next.js](https://nextjs.org/) Typescript boilerplate
+This is a(nother) [Next.js](https://nextjs.org/) TypeScript boilerplate
 
 ## Ingredients
 
