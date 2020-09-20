@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Heading matches snapshot 1`] = `
+<div>
+  <h1
+    class="css-1n7yzlh-Heading-Heading"
+  >
+    You may say that I'm a dreamer
+  </h1>
+</div>
+`;

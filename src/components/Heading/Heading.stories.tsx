@@ -16,3 +16,8 @@ Main.args = {
   level: 1,
   children: `You may say that I'm a dreamer, but I'm not the only one`,
 }
+
+export const Heading1 = () => <Heading level={1}>Imagine there's no heaven</Heading>
+export const Heading2 = () => <Heading level={2}>It's easy if you try</Heading>
+export const Heading3 = () => <Heading level={3}>No hell below us</Heading>
+export const Heading4 = () => <Heading level={4}>Above us only sky</Heading>
