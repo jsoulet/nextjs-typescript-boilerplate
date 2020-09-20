@@ -1,33 +1,29 @@
 # NextJS Typescript boilerplate
 
-This is a(nother) [Next.js](https://nextjs.org/) TypeScript boilerplate
+This is a(nother) opinionated [Next.js](https://nextjs.org/) boilerplate
 
 ## Ingredients
 
-- React
-- NextJS
-- Typescript
-- Emotion
+- ▲ NextJS
+- 👮‍♂️ Typescript
+- 👩‍🎤 Emotion
+- 🐐 Jest and React Testing Library
+- 📖 Storybook
+- 🌈 Eslint and Prettier for a consistent code base
+- 👀 Husky and lint-staged to ensure
+
+## Upcoming
+
 - Reakit ?
-
-### Tests
-
-- Jest
-- React testing library
-- Storybook
 - Cypress ?
 
-### Tooling
+## Installation
 
-- Eslint
-- Prettier
-- Husky and lint-staged
-
-## Getting Started
-
-Run the development server:
+Clone this repository, install dependancies and run the development server:
 
 ```bash
+git clone https://github.com/jsoulet/nextjs-typescript-boilerplate
+yarn
 yarn dev
 ```
 
